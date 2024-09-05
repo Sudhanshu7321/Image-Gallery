@@ -1,0 +1,22 @@
+﻿body {
+    background-color: #ECF2FF;
+}
+
+.thumbnail {
+    filter: grayscale(80%);
+    height: 130px;
+}
+
+a {
+    transform: scale(1.1);
+}
+
+img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+    border-radius: 5%;
+}
+
+.navbar-brand {
+    text-decoration-color: white;
+}
